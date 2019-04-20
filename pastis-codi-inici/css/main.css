@@ -55,12 +55,15 @@ h2 {
     content: "-";
     padding-right: 0.2em;
     }
+section{ 
+    margin: 0;
+    }
 article { 
-    width: 65%;
+    width: 60%;
     text-align: left;
-    margin-left: 14%;
+    margin-left: 19%;
     margin-right: 0%;
-    padding: 3% 3% 3%;
+    padding: 3% 0 3% 0;
     border-bottom: 2px solid grey;
     }
 table{
