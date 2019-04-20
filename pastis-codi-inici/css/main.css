@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 130%;
+    }
+h1 { 
+    background-image: url(../images/apple-pie_red.jpg);
+    font-size: 500%;
+    background-repeat: no-repeat;
+    padding:20% 20%;
+    text-align:center;
+    margin-top: 0;
+    margin-bottom:0;
+    color: white;
+    font-weight: bold;
+    }
+h2 {
+    text-align: left;
+    }
+
+#info_1 {
+    text-align: center;
+    font-size:70%;
+    margin-left: -1em;
+    margin-top:3em;
+    margin-right: 1em;
+    }
+#tiempo,#porciones, #kcal {
+    display: inline;
+    }
+#tiempo {
+    background-image: url(../images/clock.png);
+    background-repeat: no-repeat;
+    background-position: 4em;
+    padding: 1em 4em 1em 2em;
+    margin-left: 0;
+    padding-left: 0;
+    }
+#porciones {  
+    background-image: url(../images/porcion.png);
+    background-repeat: no-repeat;
+    background-position: 7em;
+    padding: 1em 4em 1em 2em;
+    }
+#kcal{  
+    background-image: url(../images/barras.png);
+    background-repeat: no-repeat;
+    background-position: 6.5em;
+    padding: 1em 4em 1em 2em;
+    }
+#guion {
+    list-style-type: none;
+    }
+#guion :before {
+    content: "-";
+    padding-right: 0.2em;
+    }
+article { 
+    width: 65%;
+    text-align: left;
+    margin-left: 14%;
+    margin-right: 0%;
+    padding: 3% 3% 3%;
+    border-bottom: 2px solid grey;
+    }
+table{
+    margin-left: 10%;
+    margin-top: 5%;
+    border-collapse:collapse;
+    text-align: center;
+    }
+#acabado{ 
+    padding: 0 2em 0 2em;
+    }
+#titols-columnes{ 
+    border: 5px solid #000;
+    }
+.border {
+    border-right: 2px solid grey;
+    }
+th {
+    font-size:70%;
+    }
+td {
+    font-size:70%;
+    width: 20%;
+    }
+#reloj {
+    background-image: url(../images/clock.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 2em 1em 2em 1em;
+    }
+ol {
+  counter-reset: list;
+    }
+ol li {
+    list-style: none;
+    }
+ol li:before {
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
+    }
+
