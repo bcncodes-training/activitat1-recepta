@@ -2,24 +2,27 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #24292e;
 	line-height: 1.3;
+	margin:0;
 }
 .head-image {
-	background-image: url("../images/apple-pie.jpg");
-	background-size: 150%;
-	height: 50rem;
-	background-repeat: no-repeat;
-	background-position: center;
 	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+.head-image img {
+	width: 100%;
+	margin: -8% 0 -20% 0;
 }
 .image-title {
-	text-align: center;
-	top: 40%;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-size: 7rem;
-	color: #ffffff;
-	position: sticky;
 }
 .recipe {
 	padding:0 10%;
+	margin-bottom: 25px;
 }
 .images{
 	border-bottom: solid 2px #979797;
